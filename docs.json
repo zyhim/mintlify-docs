@@ -76,7 +76,7 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
+    "light": "/logo/aampe-light.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
