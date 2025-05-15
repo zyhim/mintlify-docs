@@ -8,6 +8,20 @@
     "dark": "#15803D"
   },
   "favicon": "/Favicon-new.svg",
+  "fonts": {
+    "heading": {
+      "family": "Hubot Sans",
+      "weight": 700,
+      "source": "https://mintlify-assets.b-cdn.net/fonts/Hubot-Sans.woff2",
+      "format": "woff2"
+    },
+    "body": {
+      "family": "Rethink Sans",
+      "weight": 400,
+      "source": "https://fonts.gstatic.com/s/rethinksans/v3/7cHmv4okG2YqFSEiN4UByH2Ngg.woff2",
+      "format": "woff2"
+    }
+  },
   "navigation": {
     "tabs": [
       {
@@ -100,7 +114,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
+      "twitter": "https://x.com/mintlify",
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
