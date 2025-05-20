@@ -10,15 +10,15 @@
   "favicon": "/favicon.svg",
   "fonts": {
     "heading": {
-      "family": "Rethink Sans",
+      "family": "Oli Grotesk",
       "weight": 700,
-      "source": "https://fonts.gstatic.com/s/rethinksans/v5/XYZ700.woff2",
+      "source": "https://cdn.jsdelivr.net/gh/zyhim/fonts@main/OilGroteskL-Regular.woff2",
       "format": "woff2"
     },
     "body": {
       "family": "Rethink Sans",
       "weight": 400,
-      "source": "https://fonts.gstatic.com/s/rethinksans/v5/XYZ700.woff2",
+      "source": "https://cdn.jsdelivr.net/gh/zyhim/fonts@main/RethinkSans-Regular.woff2",
       "format": "woff2"
     }
   },
