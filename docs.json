@@ -7,18 +7,18 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/Favicon-new.svg",
+  "favicon": "/favicon.svg",
   "fonts": {
     "heading": {
-      "family": "Hubot Sans",
+      "family": "Rethink Sans",
       "weight": 700,
-      "source": "https://mintlify-assets.b-cdn.net/fonts/Hubot-Sans.woff2",
+      "source": "https://fonts.gstatic.com/s/rethinksans/v5/XYZ700.woff2",
       "format": "woff2"
     },
     "body": {
       "family": "Rethink Sans",
       "weight": 400,
-      "source": "https://mintlify-assets.b-cdn.net/fonts/Hubot-Sans.woff2",
+      "source": "https://fonts.gstatic.com/s/rethinksans/v5/XYZ700.woff2",
       "format": "woff2"
     }
   },
