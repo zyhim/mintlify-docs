@@ -65,8 +65,7 @@
           {
             "group": "Knowledge Hub",
             "pages": [
-              "index",
-              "knowledge-hub"
+              "knowledge-hub/introduction"
             ]
           },
           {
