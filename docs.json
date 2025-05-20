@@ -59,6 +59,29 @@
           }
         ]
       },
+       {
+        "tab": "Knowledge Hub",
+        "groups": [
+          {
+            "group": "Knowledge Hub",
+            "pages": [
+              "index",
+              "knowledge-hub"
+            ]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          }
+        ]
+      },
       {
         "tab": "API Reference",
         "groups": [
