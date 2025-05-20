@@ -10,7 +10,7 @@
   "favicon": "/favicon.svg",
   "fonts": {
     "heading": {
-      "family": "Oli Grotesk",
+      "family": "Oli Grotesk L",
       "weight": 700,
       "source": "https://cdn.jsdelivr.net/gh/zyhim/fonts@main/OilGroteskL-Regular.woff2",
       "format": "woff2"
