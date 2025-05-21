@@ -10,9 +10,9 @@
   "favicon": "/favicon.svg",
   "fonts": {
     "heading": {
-      "family": "Oli Grotesk L",
+      "family": "Rethink Sans",
       "weight": 700,
-      "source": "https://cdn.jsdelivr.net/gh/zyhim/fonts@main/OilGroteskL-Regular.woff2",
+      "source": "https://cdn.jsdelivr.net/gh/zyhim/fonts@main/RethinkSans-Bold.woff2",
       "format": "woff2"
     },
     "body": {
@@ -44,6 +44,28 @@
             "pages": [
               "index",
               "knowledge-hub"
+            ]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          }
+        ]
+      },
+       {
+        "tab": "Knowledge Hub",
+        "groups": [
+          {
+            "group": "Knowledge Hub",
+            "pages": [
+              "knowledge-hub/introduction"
             ]
           },
           {
