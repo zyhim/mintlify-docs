@@ -40,10 +40,9 @@
         "tab": "Integration",
         "groups": [
           {
-            "group": "Knowledge Hub",
+            "group": "Integration",
             "pages": [
-              "index",
-              "knowledge-hub"
+              "integration/introduction"
             ]
           },
           {
