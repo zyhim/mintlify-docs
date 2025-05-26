@@ -28,7 +28,7 @@
         "tab": "Home",
         "groups": [
           {
-            "group": "",
+            "group": "Get Started",
             "pages": [
               "index"
             ]
@@ -42,11 +42,7 @@
             "group": "Agentic Infrastructure",
             "pages": [
               "knowledge-hub/agentic-infrastructure/about",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "knowledge-hub/agentic-infrastructure/ai-agents"
             ]
           }
         ]
