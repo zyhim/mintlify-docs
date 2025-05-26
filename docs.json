@@ -37,16 +37,10 @@
         ]
       },
       {
-        "tab": "Integration",
+        "tab": "Knowledge Hub",
         "groups": [
           {
-            "group": "Integration",
-            "pages": [
-              "integration/introduction"
-            ]
-          },
-          {
-            "group": "Knowledge Hub",
+            "group": "Agentic Infrastructure",
             "pages": [
               "knowledge-hub/agentic-infrastructure/about",
               "essentials/code",
@@ -58,13 +52,13 @@
           }
         ]
       },
-       {
-        "tab": "Knowledge Hub",
+      {
+        "tab": "Integration",
         "groups": [
           {
-            "group": "Knowledge Hub",
+            "group": "Integration",
             "pages": [
-              "knowledge-hub/introduction"
+              "integration/introduction"
             ]
           },
           {
