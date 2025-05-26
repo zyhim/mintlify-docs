@@ -48,7 +48,7 @@
           {
             "group": "Knowledge Hub",
             "pages": [
-              "knowledge-hub/agentic-infrastructure/about-agentic-infrastructure",
+              "knowledge-hub/agentic-infrastructure/about",
               "essentials/code",
               "essentials/images",
               "essentials/settings",
@@ -70,7 +70,7 @@
           {
             "group": "Knowledge Hub",
             "pages": [
-              "knowledge-hub/agentic-infrastructure/about-agentic-infrastructure",
+              "knowledge-hub/agentic-infrastructure/about",
               "essentials/code",
               "essentials/images",
               "essentials/settings",
