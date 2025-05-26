@@ -39,6 +39,12 @@
         "tab": "Knowledge Hub",
         "groups": [
           {
+            "group": "Knowlede Hub",
+            "pages": [
+              "knowledge-hub/introduction"
+            ]
+          },
+          {
             "group": "Agentic Infrastructure",
             "pages": [
               "knowledge-hub/agentic-infrastructure/about",
