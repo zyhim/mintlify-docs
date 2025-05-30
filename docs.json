@@ -30,8 +30,25 @@
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "knowledge-hub"
+              "index"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Knowledge Hub",
+        "groups": [
+          {
+            "group": "Knowlede Hub",
+            "pages": [
+              "knowledge-hub/introduction"
+            ]
+          },
+          {
+            "group": "Agentic Infrastructure",
+            "pages": [
+              "knowledge-hub/agentic-infrastructure/about",
+              "knowledge-hub/agentic-infrastructure/ai-agents"
             ]
           }
         ]
@@ -40,38 +57,15 @@
         "tab": "Integration",
         "groups": [
           {
-            "group": "Knowledge Hub",
+            "group": "Integration",
             "pages": [
-              "index",
-              "knowledge-hub"
+              "integration/introduction"
             ]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-       {
-        "tab": "Knowledge Hub",
-        "groups": [
-          {
             "group": "Knowledge Hub",
             "pages": [
-              "knowledge-hub/introduction"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
+              "knowledge-hub/agentic-infrastructure/about",
               "essentials/code",
               "essentials/images",
               "essentials/settings",
@@ -120,25 +114,5 @@
   "logo": {
     "light": "/logo/Logo-light.svg",
     "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "twitter": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }
