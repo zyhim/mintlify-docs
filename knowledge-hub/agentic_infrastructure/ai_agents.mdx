@@ -7,3 +7,157 @@ sidebarTitle: "AI Agents"
 While waiting, you can see the numbers updating on the live performance page. Here are the definitions:
 
 ![Live Message Performance Web](/images/live_message_performance.webp)
+
+## Unique messages live
+
+**What it means:**\
+The number of unique messages you have deployed. This number considers all the alternates you have as part of a message.
+
+## Event-stream record analyzed
+
+**What it means:**\
+Event stream records are detailed logs of user actions and interactions with your app. These can include clicks, purchases, logins, and other activities that aampe receives from your data source.
+
+**Why it's important:**\
+By analyzing these records, aampe gains insights into how users interact with your app. This helps optimize the timing and content of messages based on actual user behavior, ensuring messages are sent at the most opportune moments and with the most relevant content.
+
+## Major clusters analyzed
+
+**What it means:**\
+Data clusters represent patterns of events that tend to occur close to each other in time, which correspond to different types of user behavior. One example might be events related to browsing; another might be events related to progressing through a market research survey.) We can use these patterns to characterize the many unique needs and preferences of our user population.
+
+**Why it's important:**\
+By identifying and analyzing these clusters, Aampe can tailor messages more precisely to each user. This ensures that users receive relevant and engaging content, ultimately enhancing their experience and increasing the likelihood of desired actions, such as making a purchase or returning to the app.
+
+## Messages scheduled
+
+**What it means:**\
+After analyzing and clustering, your agents know what is a good time and content to send to your users. They will now schedule the messages ahead for the next few days. When you just start messaging and you look into the message scheduler, you can see that the distribution will be pretty even during the learning period. After that, the time to send messages changes daily.
+
+![Insights Web](/images/insights.webp)
+
+## Messages sent
+
+**What it means:**\
+This is the number of messages that have been sent. Now it shouldn't take too long anymore until all the data is processed and you can see the live performance of each message launched.
+
+## Agents Learning: Timing
+
+### When is the best time to send a message?
+
+There's no universal answer to this question—and that's exactly the problem with traditional messaging strategies. Most tools guess a single send time and apply it to everyone, regardless of personal habits, preferences, or context.
+
+But your users aren't all the same. Their routines, schedules, and responsiveness vary widely. That's why guessing a send time—like 4 p.m. for a dinner promotion—leaves a lot of opportunity on the table.
+
+### Why Guessing Fails: The Dinner Dilemma
+
+Let's take a common use case: sending a message about ordering dinner.
+
+The obvious guess might be 4 or 5 p.m. Just before dinnertime. But what about users who:
+
+- Work night shifts and eat at midnight?
+- Make dinner plans early in the morning?
+- Eat at inconsistent times during the week?
+
+A fixed send time misses all of these users.
+
+### How Your Agents Personalizes Timing
+
+At Aampe, timing is not guessed, it's learned.
+
+Your agents track each user's behavior over time by observing how they respond to the messages they receive. This helps build an individual timing preference profile for every user in your system.
+
+When your agents select a message to send, they also choose the time that's most likely to result in a meaningful user action—based on that user's past engagement patterns.
+
+This happens automatically and continuously, without the need for manual time-slot management.
+
+### Where to See Timing Optimization in Action
+
+Visit your Monitoring page and navigate to the Timing & Frequency section.
+
+There, you'll find:
+
+- A breakdown of message delivery by time window
+- Engagement insights by time of day
+- A global view of your users' timing preferences, based on real behavior
+
+This data gives you a deeper understanding of when your users are most receptive, across your entire user base.
+
+<Info>
+  We've learned so much about timing optimization that we wrote a book on it.\
+  [Click here to download it for free](https://aampe-knowledgehub.vercel.app/agentic-infrastructure/agents#)
+</Info>
+
+## Agents Learning: Frequency
+
+### How many messages per week should you send?
+
+All apps face the same challenge. If you send too many messages, you risk annoying users and increasing churn. If you send too few, you miss opportunities to engage and drive value.
+
+But what is the right number?
+
+For some users, two messages per week might already be too much. For others, sending four or five per week may actually increase engagement and conversions. The ideal frequency is not fixed—it is personal.
+
+### Getting It Right for Each User
+
+Just like with timing, frequency is something your agents learn. A one-size-fits-all rule for how often to message users will not maximize your results.
+
+Instead, your agents track how users respond to the messages they receive. Over time, they build personal frequency profiles that reflect each user's tolerance and responsiveness. These insights are refined continuously and can be accelerated by analyzing behavioral patterns across similar users.
+
+When your agents decide whether to send a message, they assess whether that message is likely to increase the user's likelihood of taking a desired action. If sending another message is unlikely to help, your agents hold off—even if the user is eligible for multiple messages.
+
+### Where to See Frequency Optimization in Action
+
+You can observe how frequency personalization is working in your Monitoring page, under Timing & Frequency.
+
+Here, you'll see:
+
+- A distribution of how many messages users receive per week
+- How those frequencies relate to engagement
+- Global trends across your user base
+
+For example, in many customer apps, most users receive between one and three messages per week. However, some highly engaged users may receive more if your agents detect that those users continue to respond positively.
+
+## Agents Learning: Content
+
+### Content Personalization
+
+One of the most powerful aspects of Aampe's personalization infrastructure is content personalization. It gives your agents the ability to:
+
+- Tailor messages to each user based on their demonstrated interests
+- Continuously learn which types of content drive engagement and which do not
+- Adapt message content dynamically at scale, without requiring manual targeting
+
+This goes far beyond basic segmentation—your agents learn, experiment, and optimize content in real time to speak to each user in the most relevant way.
+
+### Three Key Types of Content Personalization
+
+Any element of a message can be personalized, but there are three high-impact content types most valuable to content marketing and growth teams:
+
+#### 1. Offerings
+
+Offerings refer to the actual products, categories, or content types your app promotes. Using Offering labels, you can tag related items (e.g., "Soccer") so your agents can understand what a user is likely to be interested in—and use that to personalize future messages.
+
+This is what we call Topic Personalization. It works like automated cross-selling at scale. Example: If a user engages with cleats labeled under "Soccer," your agents can follow up with messages about soccer balls, jerseys, shinguards, and more—learning over time which topics resonate most with that user.
+
+#### 2. Value Propositions
+
+Not every user values the same product for the same reason.
+
+Some users prioritize quality, others convenience, and some are primarily motivated by price.
+
+With Value Proposition labels, you can tag your content based on the benefits it communicates. Your agents then use this information to send messages that emphasize the specific value that resonates with each user.
+
+Example: For a coffee product, your value propositions might include:
+
+- "High quality"
+- "Affordable"
+- "Fast delivery"
+
+Each user's behavior will guide your agents toward the most effective proposition to emphasize.
+
+#### 3. Incentives
+
+Incentives, such as discounts, free shipping, or bonus rewards, can be highly effective in re-engaging users. But they also carry a cost, so it's important to optimize their use.
+
+By labeling your content with different types of incentives, your agents can test and learn which offers work best for each user type. This ensures that you're not just sending out promotions randomly, but delivering the right incentive to the right user—only when it's likely to make a difference.
