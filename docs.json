@@ -4,8 +4,8 @@
   "name": "Aampe Docs",
   "colors": {
     "primary": "#E15E12",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#E15E12",
+    "dark": "#E15E12"
   },
   "favicon": "/brand_assets/favicon.svg",
   "fonts": {
@@ -47,15 +47,15 @@
           {
             "group": "Agentic Infrastructure",
             "pages": [
-              "knowledge-hub/agentic-infrastructure/about",
-              "knowledge-hub/agentic-infrastructure/ai-agents"
+              "knowledge-hub/agentic_infrastructure/about",
+              "knowledge-hub/agentic_infrastructure/ai_agents"
             ]
           },
           {
             "group": "Content",
             "pages": [
               "knowledge-hub/content/introduction",
-              "knowledge-hub/content/component-and-labels",
+              "knowledge-hub/content/component_and_labels",
               "knowledge-hub/content/message_creation"
             ]
           }
