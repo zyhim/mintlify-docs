@@ -50,6 +50,14 @@
               "knowledge-hub/agentic-infrastructure/about",
               "knowledge-hub/agentic-infrastructure/ai-agents"
             ]
+          },
+          {
+            "group": "Content",
+            "pages": [
+              "knowledge-hub/content/introduction",
+              "knowledge-hub/content/component-and-labels",
+              "knowledge-hub/content/message_creation"
+            ]
           }
         ]
       },
