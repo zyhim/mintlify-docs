@@ -47,8 +47,8 @@
           {
             "group": "Agentic Infrastructure",
             "pages": [
-              "knowledge-hub/agentic-infrastructure/about",
-              "knowledge-hub/agentic-infrastructure/ai-agents"
+              "knowledge-hub/agentic_infrastructure/about",
+              "knowledge-hub/agentic_infrastructure/ai_agents"
             ]
           },
           {
