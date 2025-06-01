@@ -120,7 +120,7 @@
     }
   },
   "logo": {
-    "light": "/logo/Logo-light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/brand_assets/logo_light.svg",
+    "dark": "/brand_assets/logo_dark.svg"
   }
 }
