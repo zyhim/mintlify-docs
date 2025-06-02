@@ -58,3 +58,38 @@ Similar to Push Messages, Surface Messages can be targeted to specific Audiences
 The Message Editor will feel familiar if you've used Composer before. Each section corresponds to a Template Element, and you can populate them using:
 
 ![Message Content Pn](/images/message_content.png)
+
+<CardGroup cols={2}>
+  <Card title="Static text">
+    Enter fixed content for all users
+  </Card>
+  <Card title="Components">
+    Reuse pieces across multiple messages
+  </Card>
+  <Card title="Datasets">
+    Dynamic data selection based on rules
+  </Card>
+  <Card title="CMS Data">
+    Pull content from your CMS
+  </Card>
+</CardGroup>
+
+## Going Live
+
+<Info>
+  **Remember:**
+
+  Only Live Messages are used to generate Surface content - Drafts remain inactive.
+</Info>
+
+## Implementation Guide
+
+Once your Message is live, the Review screen provides everything you need to integrate with the Content API. Note that content is cached for up to 24 hours for each Surface-User combination, so repeated calls to the API with the same parameters will result in the same content being returned.
+
+### API Implementation
+
+You can find detailed API documentation at[Surface API](https://docs.aampe.com/reference)
+
+<Info>
+  API content is updated every 24 hours. The API returns a list of surfaces, so a single API call can be used to personalize several parts of your app or website.
+</Info>
