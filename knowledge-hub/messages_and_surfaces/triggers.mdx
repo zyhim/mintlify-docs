@@ -20,3 +20,72 @@ Within any trigger, you can define one or more exit events. Users who complete a
 ![Triggers Web](/images/triggers.webp)
 
 ![Triggers App Installed Web](/images/triggers_app_installed.webp)
+
+## Using Triggers
+
+Triggers let you send messages only after a user completes a specific action, such as making a purchase, completing onboarding, or finishing a level in your app.
+
+This helps you send the right message to the right user at the right time.
+
+<Warning>
+  **Don’t Overuse Triggers\!**\
+  A common mistake is over-constraining your messages with too many triggers. Triggers limit the pool of messages your agents can choose from.
+</Warning>
+
+**Example:**
+
+If you have 500 total messages, but 250 of them require a “purchase complete” trigger, then users who haven’t purchased anything will only see the other 250. That limits your reach and results.
+
+Before adding a trigger to any message, ask yourself:
+
+_“Does this message really need a trigger, or can it go to all users?”_
+
+You might be surprised how many messages work without one\!
+
+## How to Set Up a Trigger
+
+1. Go to **Configure \> Triggers** in the left-hand menu.
+2. Click the **\+ Create** button.
+3. Select the trigger type. _(If the real-time trigger is greyed out, please contact us to set it up for you.)_
+4. Choose an event and an operator to define your condition:
+
+   == — Equals (e.g., Purchase_Complete == 0 means no purchase made)
+
+   \!= — Not equal to
+
+   \> — Greater than (e.g., more than 1 purchase)
+
+   \>= — Greater than or equal to
+
+   \< — Less than
+
+   \<= — Less than or equal to
+5. Set a time window for when the event should have occurred.
+6. _(Optional)_ Add more conditions using the **\+ Add** button.
+7. Set an exit condition _(optional)_:
+
+   By default, users exit once all trigger-linked messages are sent.
+
+   You can also add exit events (e.g., Purchase_Complete \>= 1) to stop the trigger once the user takes that action.
+8. Name your trigger and hit **Save**.
+
+## How to Use a Trigger in a Message
+
+1. Open the **Message Composer**.
+2. Start a new message or open an existing one.
+3. At the top, click the **Trigger** box (it will say **None** if no trigger is set).
+4. Select the trigger you created and click **Save**.
+
+## Important Notes About Triggers
+
+**Aampe Optimized Triggers ≠ Guaranteed Delivery**
+
+Even if a user matches a trigger, it doesn’t mean the message will be sent. Your agents choose the best message for that user based on what is most likely to drive conversion.
+
+**That’s a good thing\!**
+
+Users often qualify for multiple messages. We don’t want to over-message them, so your agents pick the highest-impact message at the optimal time.
+
+**Real-time Trigger** and **Real-time with Delay** = **Delivery Guaranteed**
+
+These work like the event triggers you’re familiar with. Once the event occurs, the message is triggered.
