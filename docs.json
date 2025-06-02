@@ -58,6 +58,14 @@
               "knowledge-hub/content/component_and_labels",
               "knowledge-hub/content/message_creation"
             ]
+          },
+          {
+            "group": "Messages and Surfaces",
+            "pages": [
+              "knowledge-hub/messages_and_surfaces/introduction",
+              "knowledge-hub/messages_and_surfaces/message",
+              "knowledge-hub/messages_and_surfaces/"
+            ]
           }
         ]
       },
