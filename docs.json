@@ -69,6 +69,13 @@
               "knowledge-hub/messages_and_surfaces/Triggers",
               "knowledge-hub/messages_and_surfaces/Funnel"
             ]
+          },
+          {
+            "group": "Analytics",
+            "pages": [
+              "knowledge-hub/analytics/message_performance",
+              "knowledge-hub/analytics/label_performance"
+            ]
           }
         ]
       },
