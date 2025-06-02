@@ -78,29 +78,79 @@ Once the scheduled window ends, the message will automatically be moved to your 
 
 ### A Few Important Notes
 
-<div className="mb-10">
-<Frame>
-  #### **Scheduling sets eligibility, not a send time**
-
+<Card title="Scheduling sets eligibility, not a send time">
   Your agents will still choose the **best time** to send the message within your defined window, based on each user's behavior and context.
-</Frame>
+</Card>
 
-</div>
-
-<div className="mb-10">
-<Frame>
-  #### **Not all users will receive all messages**
-
+<Card title="Not all users will receive all messages">
   Just because a message is live and a user is eligible doesn't guarantee delivery. Your agents select the message most likely to drive your defined goal for that user.
-</Frame>
+</Card>
 
-</div>
-
-<div className="mb-10">
-<Frame>
-  #### **Need 100% delivery?**
-
+<Card title="Need 100% delivery?">
   If the message must reach every user in an audience, consider using a **One time send**, which bypasses agentic optimization and ensures delivery.
-</Frame>
+</Card>
 
-</div>
+## Setting Messaging Frequency
+
+Aampe is designed to avoid spamming your users. Your agents are trained to send fewer, smarter messages that actually drive results. In fact, most customers find that Aampe delivers better performance while sending significantly fewer messages overall.
+
+Before any message is sent, your agents assess whether it will meaningfully increase the probability of a user taking the desired action. If the answer is no, the message is not sent.
+
+That said, we know that some teams need to enforce additional guardrails. To support that, Aampe allows you to define **frequency limits** for how many messages users can receive in a given week.
+
+### How to Set Messaging Frequency
+
+1. Go to **Configure \> Frequency Limits** in the left-side navigation
+2. Click **Edit** next to any trigger
+3. Set the **maximum number of messages per week** for that trigger
+4. Click **Save**
+
+> Your changes will take effect the following day.
+
+### How Frequency Limits Work
+
+Frequency limits are defined **per trigger**. This gives you granular control over messaging volume based on user behavior.
+
+- If a user has **not qualified** for any trigger, only the \*\*"No Trigger"\*\*frequency limit applies.
+- If a user has **qualified** for one or more triggers, they may receive:
+  - Up to the max number of messages set under **"No Trigger"**
+  - Plus, the max number of messages for **each trigger** they qualify for
+
+<Info>
+  Example: If you set a "No Trigger" limit of 5 messages per week, and a "Cart Abandonment" trigger limit of 4 messages per week, a user who qualifies for the Cart Abandonment trigger could receive up to 9 messages in total that week.
+</Info>
+
+![Scheduling With Guardrails Pn](/images/scheduling_with_guardrails.png)
+
+### Keep in Mind
+
+These are **upper bounds**, not quotas. Just because a user could receive that many messages doesn't mean they will.
+
+Your agents still determine the **optimal** messaging frequency for each user, which is often well below the defined maximums—especially if higher volumes would not increase the likelihood of conversion.
+
+## Sending a Test Message
+
+Want to test how your message will look and behave on a real device before it goes live? You can easily send a test message directly from the Message Editor.
+
+![Send A Test Message Pn](/images/send_a_test_message.png)
+
+### Steps to Send a Test Message
+
+1. Open your message in the **Message Editor**
+2. Click the **Test Icon** located at the bottom of the editor
+3. Enter your **device token** in the field provided
+4. Click **Send**. You'll see a confirmation, and the message should arrive on your device within a few minutes
+
+### Don't Have Your Device Token?
+
+If you're unsure how to get your device token:
+
+- Click the **"Need help getting this?"** link in the test message window
+- This will automatically send a request to our team at [developer@aampe.com](mailto:developer@aampe.com), and we'll assist you directly
+
+### Token Management
+
+Once a message is successfully sent, you can **save your token** for future use, no need to re-enter it each time.
+
+To manage your saved tokens (user-level or group-level), visit:\
+https://compose.aampe.com/system-setup/account-members/test-message-setting
