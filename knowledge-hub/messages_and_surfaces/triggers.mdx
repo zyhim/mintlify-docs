@@ -2,3 +2,21 @@
 title: "Message Triggers"
 sidebarTitle: "Triggers"
 ---
+
+## What Are Triggers?
+
+In Aampe, triggers act as eligibility signals—they tell our AI agents which users could potentially receive a message, based on actions those users have taken. But unlike traditional systems where a trigger might immediately send a message, our agentic AI takes a more strategic approach.\\n\\nOnce a user qualifies for a trigger, the AI agent uses it as a guardrail, not a direct instruction. This allows the agent to decide the right moment to deliver a message within a relevant window, balancing timing, context, and message effectiveness.
+
+## Trigger Types
+
+We support three types of triggers:\\n\\n**1. Aampe Trigger (Optimized Eligibility Window)**\\nThis trigger type functions like a dynamic audience filter based on events. If a user completes a specified event within a set timeframe (e.g., "purchased in the last 7 days"), they become eligible for the message.\\n\\nThe AI agent then determines the best time to send it within that 7-day window, optimizing for maximum impact.\\n\\n**2. Real-Time Trigger**\\nThis is an immediate trigger, so a webhook is used to send the message as soon as the event occurs.\\n\\nIt is useful when the timing of the message is critical—e.g., when confirming a booking, reacting to a major user action, or providing instant feedback.\\n\\n**3. Real-Time with Delay**\\nLike the real-time trigger, this also uses a webhook but allows you to configure a delay, such as sending the message one day after the event.\\n\\nThis is useful when you want to follow up on a real-time action, but not immediately, giving the user some space before messaging.
+
+## Exit Events
+
+Within any trigger, you can define one or more exit events. Users who complete an exit event immediately become ineligible for that trigger and any messages attached to it.\\n\\nThis helps prevent irrelevant messaging, for example, if a user completes a purchase after entering a cart-abandonment trigger, you can set "Purchase Complete" as an exit event to stop further nudges.
+
+## Trigger Configuration
+
+![Triggers Web](/images/triggers.webp)
+
+![Triggers App Installed Web](/images/triggers_app_installed.webp)
