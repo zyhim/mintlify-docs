@@ -111,7 +111,7 @@ That said, we know that some teams need to enforce additional guardrails. To sup
 
 Frequency limits are defined **per trigger**. This gives you granular control over messaging volume based on user behavior.
 
-- If a user has **not qualified** for any trigger, only the **"No Trigger"**frequency limit applies.
+- If a user has **not qualified** for any trigger, only the \*\*"No Trigger"\*\*frequency limit applies.
 - If a user has **qualified** for one or more triggers, they may receive:
   - Up to the max number of messages set under **"No Trigger"**
   - Plus, the max number of messages for **each trigger** they qualify for
@@ -119,3 +119,5 @@ Frequency limits are defined **per trigger**. This gives you granular control ov
 <Info>
   Example: If you set a "No Trigger" limit of 5 messages per week, and a "Cart Abandonment" trigger limit of 4 messages per week, a user who qualifies for the Cart Abandonment trigger could receive up to 9 messages in total that week.
 </Info>
+
+![Scheduling With Guardrails Pn](/images/scheduling_with_guardrails.png)
