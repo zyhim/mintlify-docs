@@ -65,9 +65,11 @@
               "knowledge-hub/messages_and_surfaces/introduction",
               "knowledge-hub/messages_and_surfaces/messages",
               "knowledge-hub/messages_and_surfaces/surfaces",
-              "knowledge-hub/messages_and_surfaces/Audiences",
-              "knowledge-hub/messages_and_surfaces/Triggers",
-              "knowledge-hub/messages_and_surfaces/Funnel"
+              "knowledge-hub/messages_and_surfaces/audiences",
+              "knowledge-hub/messages_and_surfaces/triggers",
+              "knowledge-hub/messages_and_surfaces/funnel",
+              "knowledge-hub/messages_and_surfaces/scheduling",
+              "knowledge-hub/messages_and_surfaces/launch_your_message"
             ]
           },
           {
