@@ -6,3 +6,55 @@ description: "Welcome to Aampe's Surfaces feature - a powerful tool that lets yo
 ## Creating Your First Surface
 
 Let's walk through setting up your first Surface in Composer:
+
+![Surface Setup Pn](/images/surface_setup.png)
+
+1. Navigate to the Surfaces section and click "Create Surface"
+2. Choose a descriptive name (like "Banner"), add an optional description, and apply relevant tags
+3. Set up Frequency Guardrails to control how often content is displayed to users
+
+## Designing Your Template
+
+![Template Pn](/images/template.png)
+
+The Template defines the structure of your API response. Each Element you add becomes a property in the returned JSON. For example:
+
+```
+{  
+  "headline": "some text generated for the surface",  
+  "body": "some more text generated for the surface"  
+}
+```
+
+We offer several pre-defined element types to get you started. Most elements return a simple string, while special types like Buttons provide structured data:
+
+```
+{  
+  "callToActionButton": {  
+    "label": "Click me!",  
+    "action": "deeplink://link-to-something"  
+  }  
+}
+```
+
+> **Coming Soon: Fully customizable Templates\!**
+>
+> Want early access? Reach out to our team to be among the first to try this feature.
+
+> **Pro tip:**
+>
+> Each Element has a human-readable name that helps you identify fields in the editor – this won't affect your API response.
+
+## Creating Dynamic Messages
+
+Similar to Push Messages, Surface Messages can be targeted to specific Audiences. When a user requests content, our intelligent Aampe Agents select the most appropriate Message based on:
+
+- The user's matching Audiences
+- The specific Surface being requested
+- Current content optimization parameters
+
+### Crafting Your Content
+
+The Message Editor will feel familiar if you've used Composer before. Each section corresponds to a Template Element, and you can populate them using:
+
+![Message Content Pn](/images/message_content.png)
