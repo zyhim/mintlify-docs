@@ -64,7 +64,10 @@
             "pages": [
               "knowledge-hub/messages_and_surfaces/introduction",
               "knowledge-hub/messages_and_surfaces/messages",
-              "knowledge-hub/messages_and_surfaces/"
+              "knowledge-hub/messages_and_surfaces/surfaces",
+              "knowledge-hub/messages_and_surfaces/Audiences",
+              "knowledge-hub/messages_and_surfaces/Triggers",
+              "knowledge-hub/messages_and_surfaces/Funnel"
             ]
           }
         ]
