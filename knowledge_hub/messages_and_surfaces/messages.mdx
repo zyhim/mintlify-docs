@@ -1,0 +1,106 @@
+---
+title: "What are messages in Aampe?"
+sidebarTitle: "Message"
+---
+
+Messages in Aampe are **not just simple, one-off notifications**—they're dynamic, intelligent, and highly flexible building blocks that your AI agents use to communicate with users across different channels and moments.
+
+Each **Aampe message** consists of **many alternates**, and each alternate is made up of**components**  (like a header, body, image, CTA, etc.). These alternates give our agents options—so they can choose the **best combination** of content, format, and timing for each user.
+
+A single message in Aampe can easily contain **hundreds or thousands of alternates**, generated from your defined components. This gives the model room to experiment and optimize across audiences, behaviors, and outcomes.
+
+## Supported Channels
+
+Aampe supports **all major messaging channels**, including:
+
+- Push notifications
+- SMS
+- Email
+- WhatsApp
+
+...and we also support what we call **"surfaces"**—spaces within your app and web experience where messages can appear, such as:
+
+- [App and web UI surfaces](https://aampe-knowledgehub.vercel.app/messages-surfaces/what-is-a-surface)
+- In-app messages
+- Content cards
+
+## Writing your first message
+
+Writing your first message in Aampe is a piece of cake 🍰 and a fun way to start exploring how our agentic system works.
+
+![Chanel Selection Web](/images/chanel_selection.webp)
+
+### 1. Open the Message Editor
+
+Head to [compose.aampe.com](http://compose.aampe.com) and click the `+ Quick Create` button in the top-right corner.
+
+### 2. Choose Your Message Type
+
+From the popup, select the channel you want to create a message for (e.g., **Mobile Push**,**Email** , **SMS**, etc.).
+
+### 3. Write Your Message
+
+Once the editor opens you can either start with your setup (Choosing an audience and adding message details) or you can navigate straight to the content tab and:
+
+- Enter your **Header** and **Body** content
+- Add an **Image URL** if applicable
+- Add your Deeplink
+- You'll see a **preview** update live on the right side of the screen or on the "cover" tab.
+
+<Info>
+  **Don't worry—this is just Draft Mode\!**
+
+  Your message won't be sent until integrations are set up and you click **"Start Sending"**.
+</Info>
+
+The **character count** helps you to identify if some of your alternates are too long to be fully displayed. (Side note: We've found that truncation usually doesn't hurt performance 😉)
+
+## How to Schedule Messages
+
+Sometimes you'll want a message to go out **only during a specific window**—like for a holiday promotion, a product launch, or a time-sensitive campaign.
+
+While Aampe's agentic model thrives on having a rich catalog of messages to choose from,**scheduled messages**  give you extra control when content is only relevant during a particular date range.
+
+![Scheduling Options Web](/images/scheduling_options.webp)
+
+### Steps to Schedule a Message
+
+1. **Write your message** as you normally would in the Message Composer.
+2. Go to the `Scheduling tab` in the editor.
+3. Choose your schedule.
+   1. By default, **"Delegate to agents"** is set. Your agents will find the right time, day and frequency.
+   2. If you have **messages that should be send during a certain time**, for example Christmas messages should be part of our agent's selection only in December. Or breakfast themed messages should only be sent during morning hours.
+   3. **One-time-send**\
+      If you have a message that should be sent only once, like a monthly newsletter, your can use this scheduling functionality. Be aware, that these messages are excluded from learnings for your agents.
+4. When you're ready, you can review everything and hit`Start Sending` to activate the message.
+
+Once the scheduled window ends, the message will automatically be moved to your **Expired**folder. It will no longer be eligible for delivery.
+
+### A Few Important Notes
+
+<div className="mb-10">
+<Frame>
+  #### **Scheduling sets eligibility, not a send time**
+
+  Your agents will still choose the **best time** to send the message within your defined window, based on each user's behavior and context.
+</Frame>
+
+</div>
+
+<div className="mb-10">
+<Frame>
+  #### **Not all users will receive all messages**
+
+  Just because a message is live and a user is eligible doesn't guarantee delivery. Your agents select the message most likely to drive your defined goal for that user.
+</Frame>
+
+</div>
+
+<div className="mb-10">
+<Frame>
+  #### **Need 100% delivery?**
+
+  If the message must reach every user in an audience, consider using a **One time send**, which bypasses agentic optimization and ensures delivery.
+</Frame>
+
+</div>
